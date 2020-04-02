@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0204_s3pythontest.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 29,
+          "column": 5
         },
         "config": {
           "runtime": "python3.8",
@@ -22,7 +22,21 @@
           "layers": [],
           "name": "0204s3pythontest"
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "e34ad83a-3f48-45b9-b9fd-d4c50170a348": {
+            "id": "e34ad83a-3f48-45b9-b9fd-d4c50170a348",
+            "name": "Test event",
+            "functionId": "120b48e8-eb06-4fe6-9347-722068d7b81d",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -50,6 +64,16 @@
             "region": "us-east-1",
             "name": "hiru.0204"
           }
+        }
+      },
+      "alexaSK2062aea9dc3b43d0b4f3d47952090b10": {
+        "name": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.2062aea9-dc3b-43d0-b4f3-d47952090b10",
+          "applicationID": ""
         }
       }
     },
@@ -88,7 +112,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1585825365125
+    "lastSave": 1585826434546
   },
   "VCS_STATE": {
     "provider": "GitHub",
